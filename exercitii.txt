@@ -43,3 +43,28 @@ const b = substract(20,15)
 
 display (a)
 display (b)
+
+/*  
+    If number > 5 then 
+    return OK
+    If number < 5 then
+    return not OK
+*/
+
+const hasPassedTest = (grade) => {
+    if (grade > 5){
+        return "GOOD"
+    }
+    
+    if (grade == 5){
+        return "Hai ca merge!"
+    }
+    
+    if (grade < 5){
+        return "not OK"
+    }
+}
+
+const result = hasPassedTest(5)
+
+console.log(result)
