@@ -1,0 +1,1 @@
+Tema de java script cu acceptare de pull request.

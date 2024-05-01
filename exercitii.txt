@@ -1,0 +1,45 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Hello world!")
+
+const pi = 3.14
+console.log(pi)
+
+// Explicatii suprafata planetei marte PI*R^2
+const areaOfMars = 4 * pi * 3390 * 3390
+const areaOfMercury = 4 * pi * 2440 * 2440
+console.log("Suprafata marte",areaOfMars)
+console.log("Suprafata mercur",areaOfMercury)
+
+const surface = 4 * pi * 3390 * 3390
+console.log(surface)
+
+const a = 0.2
+const b = 0.1
+const c = a + b
+console.log(c)
+
+const radius = 3390
+
+function surfaceareacalculator(radius) {
+    return 4 * pi * radius * radius
+}
+
+const percentageCalculator = (number,total) => {
+    return number * total / 100;
+}
+
+const display = (value) => {
+    console.log(value)
+}
+
+const substract add(a,b) => {
+    return (a - b)
+}
+
+const a = add(20,15)
+const b = substract(20,15)
+
+display (a)
+display (b)
