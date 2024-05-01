@@ -42,6 +42,7 @@ const a = add(20,15)
 const b = substract(20,15)
 
 display (a)
+<<<<<<< HEAD
 display (b)
 
 /*  
@@ -70,3 +71,6 @@ const result = hasPassedTest(5)
 console.log(result)
 
 TEST 00:38
+=======
+display (b)
+>>>>>>> 8eb71c441ee6015da9f021635e5fcd196359b6c6
