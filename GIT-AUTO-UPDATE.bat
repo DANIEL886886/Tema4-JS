@@ -4,7 +4,7 @@ cls && color 4 && cls
 
 
 ::------------------------------------------------------------------------------------------------------------------------
-::MESAJ INTAMPINARE
+:: MESAJ INTAMPINARE
 echo ----------------------------------------------------------------------------------------------------------------------
 echo.
 echo Hello, %username%
@@ -12,14 +12,14 @@ echo.
 echo Incepe actualizarea ! ......................
 echo.
 ::------------------------------------------------------------------------------------------------------------------------
-::PENTRU A PRELUA AUTOMAT CALEA LOCALA UNDE SE AFLA FIZIC SCRIPTUL
+:: PENTRU A PRELUA AUTOMAT CALEA LOCALA UNDE SE AFLA FIZIC SCRIPTUL
 echo ----------------------------------------------------------------------------------------------------------------------
 echo.
 set mypath=%cd%
-@echo %mypath%
+echo Locatia folderului curent este : %mypath%
 echo.
 ::------------------------------------------------------------------------------------------------------------------------
-::COMENZI GIT
+:: COMENZI GIT
 echo ----------------------------------------------------------------------------------------------------------------------
 echo.
 cd %mypath%
@@ -28,7 +28,7 @@ git add .
 git status
 echo.
 ::------------------------------------------------------------------------------------------------------------------------
-::COMENZI PENTRU A EXTRAGE DATA SI ORA PENTRU A LE FOLOSI IN DENUMIREA UPDATE-ULUI
+:: COMENZI PENTRU A EXTRAGE DATA SI ORA PENTRU A LE FOLOSI IN DENUMIREA UPDATE-ULUI
 echo ----------------------------------------------------------------------------------------------------------------------
 echo.
 @echo off
@@ -40,7 +40,7 @@ set "fullstamp=%YYYY%-%MM%-%DD%_%HH%:%Min%:%Sec%"
 echo Data si Ora: "%fullstamp%"
 echo.
 ::------------------------------------------------------------------------------------------------------------------------
-::COMENZI GIT PENTRU PUSH UPDATE
+:: COMENZI GIT PENTRU PUSH UPDATE
 echo ----------------------------------------------------------------------------------------------------------------------
 echo.
 git commit -m "update-%fullstamp%"
