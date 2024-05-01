@@ -68,3 +68,5 @@ const hasPassedTest = (grade) => {
 const result = hasPassedTest(5)
 
 console.log(result)
+
+TEST 00:38

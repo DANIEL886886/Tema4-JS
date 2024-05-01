@@ -1,4 +1,17 @@
-@echo off
+cls
+color 6
+cls
+
+echo Hello, %username%
+echo.
+echo.
+echo Incepe actualizarea ! ......................
+
+set mypath=%cd%
+
+@echo %mypath%
+
+cd %mypath%
 
 git checkout update
 
@@ -20,6 +33,10 @@ echo fullstamp: "%fullstamp%"
 git commit -m "update-%datestamp%-%timestamp%"
 
 git push origin update
+
+echo.
+echo.
+echo Actualizare finalizata cu success !
 
 pause
 
